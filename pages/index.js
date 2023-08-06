@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { AiFillLinkedin, AiFillBehanceCircle, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedIn, AiFillBehanceCircle, AiFillGithub } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import farhan from "../public/A6506337.png";
@@ -41,20 +41,26 @@ export default function Home() {
           </nav>
           <div className="py-7 md:flex">
             <div className="md:w-1/2">
-            <h2 className="text-left text-5xl text-blue-700 font-medium dark:text-teal-400 md:text-6xl">FARHAN RISKI RIANDA</h2>
-            <h3 className="text-xl py-2 dark:text-white md:text-3xl">Developer and Designer.</h3>
-            <p className="text-left text-sm py-5 leading-8 text-gray-800 dark:text-teal-400 max-w-xl md:text-xl">Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!</p>
+              <h2 className="text-left text-5xl text-blue-700 font-medium dark:text-teal-400 md:text-6xl">FARHAN RISKI RIANDA</h2>
+              <h3 className="text-xl py-2 dark:text-white md:text-3xl">Developer and Designer.</h3>
+              <p className="text-left text-sm py-5 leading-8 text-gray-800 dark:text-teal-400 max-w-xl md:text-xl">Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!</p>
               <div className="text-5xl flex gap-7 py-3 text-blue-700 dark:text-gray-400">
-              <a href="https://www.linkedin.com/in/farhan-riski-rianda-274b3b273/"><AiFillLinkedin /></a>
-              <a href="https://www.behance.net/farhanriskiii"><AiFillBehanceCircle /></a>
-              <a href="https://github.com/farhanriski"><AiFillGithub /></a>
+                <a href="https://www.linkedin.com/in/farhan-riski-rianda-274b3b273/">
+                  <AiFillLinkedIn />
+                </a>
+                <a href="https://www.behance.net/farhanriskiii">
+                  <AiFillBehanceCircle />
+                </a>
+                <a href="https://github.com/farhanriski">
+                  <AiFillGithub />
+                </a>
               </div>
             </div>
             <div className="mx-auto bg-gradient-to-b from-blue-700 dark:from-teal-400 rounded-full mt-7 w-80 h-80 relative overflow-hidden md:h-96 md:w-96 md:rounded-5xl">
               <Image src={farhan} layout="fill" objectFit="cover" />
             </div>
           </div>
-            <hr className="text-blue-700"></hr>
+          <hr className="text-blue-700"></hr>
         </section>
         <section>
           <div className="pt-7">
@@ -134,7 +140,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="bg-blue-700 text-white text-center py-4 rounded-full mx-7 mb-10">
-      <p class="text-sm">&copy; 2023 Rianda Port. All rights reserved.</p>
+        <p class="text-sm">&copy; 2023 Rianda Port. All rights reserved.</p>
       </footer>
     </div>
   );

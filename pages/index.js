@@ -57,7 +57,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto bg-gradient-to-b from-blue-700 dark:from-teal-400 rounded-full mt-7 w-80 h-80 relative overflow-hidden md:h-96 md:w-96 md:rounded-5xl">
-              <Image src={farhan} alt="" layout="fill" objectFit="cover" />
+              <Image src={farhan} alt="as" layout="fill" objectFit="cover" />
             </div>
           </div>
           <hr className="text-blue-700"></hr>
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="asd" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">Frontend Developer</h3>
               <p className="py-2">Creating elegant designs suited for your needs following core design theory.</p>
               <h4 className="py-4 text-blue-700">Design Tools I Use</h4>
@@ -85,7 +85,7 @@ export default function Home() {
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="asdas" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">AR & VR Developer</h3>
               <p className="py-2">Do you have an idea for your next great website? Let's make it a reality.</p>
               <h4 className="py-4 text-blue-700">Design Tools I Use</h4>
@@ -95,7 +95,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="asdasdsad" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">UI & UX Design</h3>
               <p className="py-2">Are you interested in feedback for your current project? I can give you tips.</p>
               <h4 className="py-4 text-blue-700">Design Tools I Use</h4>
@@ -119,22 +119,22 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-7 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web1} />
+              <Image className="rounded-lg object-cover" alt="asdasdasdasdsad" width={"100%"} height={"100%"} layout="responsive" src={web1} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web2} />
+              <Image className="rounded-lg object-cover" alt="2eqqwe" width={"100%"} height={"100%"} layout="responsive" src={web2} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web3} />
+              <Image className="rounded-lg object-cover" alt="fbdfh" width={"100%"} height={"100%"} layout="responsive" src={web3} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web4} />
+              <Image className="rounded-lg object-cover" alt="12414dsf" width={"100%"} height={"100%"} layout="responsive" src={web4} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web5} />
+              <Image className="rounded-lg object-cover" alt="asdasdsad" width={"100%"} height={"100%"} layout="responsive" src={web5} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web6} />
+              <Image className="rounded-lg object-cover" alt="343sdf" width={"100%"} height={"100%"} layout="responsive" src={web6} />
             </div>
           </div>
         </section>

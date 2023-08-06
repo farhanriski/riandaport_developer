@@ -57,7 +57,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto bg-gradient-to-b from-blue-700 dark:from-teal-400 rounded-full mt-7 w-80 h-80 relative overflow-hidden md:h-96 md:w-96 md:rounded-5xl">
-              <Image src={farhan} layout="fill" objectFit="cover" />
+              <Image src={farhan} alt="" layout="fill" objectFit="cover" />
             </div>
           </div>
           <hr className="text-blue-700"></hr>
